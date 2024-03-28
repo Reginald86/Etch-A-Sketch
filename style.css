@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#etch{
+   
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 500px;
+    border: black 2px solid;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.row{
+    display: flex;
+    flex-grow: 1;
+    background-color: white;;
+    min-height: 5px;
+    min-width: 5px;
+}
+
+.column{
+    flex-grow: 1;
+    border: 1px solid black;
+    opacity: 3%;
+    min-height: 5px;
+    min-width: 5px;
+}
+
+#container{
+    height: 700px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 27px;
+    padding-top: 10px;
+}
+
+#buttonContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 100px;
+    
+    
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 35px;
+    font-size: 16px;
+    
+}
+
