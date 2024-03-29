@@ -26,15 +26,13 @@ body{
 .row{
     display: flex;
     flex-grow: 1;
-    background-color: white;;
+    background-color: #e4dfdf;;
     min-height: 5px;
     min-width: 5px;
 }
 
 .column{
     flex-grow: 1;
-    border: 1px solid black;
-    opacity: 3%;
     min-height: 5px;
     min-width: 5px;
 }
